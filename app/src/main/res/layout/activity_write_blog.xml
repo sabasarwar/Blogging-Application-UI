@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteBlogActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg02"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rellay4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            >
+            <TextView
+                android:id="@+id/writeblog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Write Blog"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginTop="70dp"
+                android:fontFamily="sans-serif"
+                />
+            <View
+                android:layout_below="@+id/writeblog"
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/dark_grey"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rellay5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellay4"
+            android:layout_marginTop="20dp"
+            >
+
+            <EditText
+                android:id="@+id/blog_content"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:background="@drawable/edit"
+                android:inputType="textMultiLine"
+                android:hint="Write you blog here!"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:lines="20"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rellay6"
+            android:layout_below="@+id/rellay5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            >
+
+            <Button
+                android:id="@+id/post"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="Post"
+                android:textColor="#fff"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/button"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
