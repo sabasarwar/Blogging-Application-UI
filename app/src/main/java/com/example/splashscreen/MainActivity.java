@@ -31,11 +31,8 @@ public class MainActivity extends AppCompatActivity
         vision_animation = AnimationUtils.loadAnimation(this,R.anim.vision_animation);
         mid_animation = AnimationUtils.loadAnimation(this,R.anim.middle_animation);
 
-        img = findViewById(R.id.img);
         mid = findViewById(R.id.midLogo);
         vision = findViewById(R.id.vision);
-
-        img.animate().alpha(400).setDuration(0);
 
         handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -49,7 +46,6 @@ public class MainActivity extends AppCompatActivity
 
         }, 4000);
 
-        img.setAnimation(logo_animation);
         mid.setAnimation(mid_animation);
         vision.setAnimation(vision_animation);
 
