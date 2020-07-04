@@ -10,6 +10,6 @@
 
 1. SplashScreen
 
-<img src="images/img01.jpeg" width="150>
+<img src="images/img01.jpeg" width="150">
 
 
