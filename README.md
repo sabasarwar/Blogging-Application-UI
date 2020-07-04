@@ -10,7 +10,7 @@
 
 1. SplashScreen
 
-<img src="images/img01.jpeg" width="170" align="center" margin-left="100">
+<img src="images/img01.jpeg" width="170" align="center">
 
 
 2. Login Page
@@ -18,37 +18,29 @@
 <img src="images/img02.jpeg" width="170" align="center">
 
 
-2. Registeration Page
+3. Registeration Page
 
 <img src="images/img03.jpeg" width="170" align="center">
 
 
-2. Home Page
+4. Home Page
 
 <img src="images/img04.jpeg" width="170" align="center">
 
 
-2. Profile Page
+5. Profile Page
 
 <img src="images/img05.jpeg" width="170" align="center">
 
 
-2. Write Blog Page
+6. Write Blog Page
 
 <img src="images/img06.jpeg" width="170" align="center">
 
 
-2. Messaging Page
+7. Messaging Page
 
 <img src="images/img07.jpeg" width="170" align="center">
 
 
-2. Login Page
-
-<img src="images/img02.jpeg" width="170" align="center">
-
-
-2. Login Page
-
-<img src="images/img02.jpeg" width="170" align="center">
 
